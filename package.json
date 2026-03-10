@@ -1,0 +1,11 @@
+{
+  "name": "scope-database",
+  "version": "1.0.0",
+  "description": "Yorke & Curtis Scope of Work Database",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

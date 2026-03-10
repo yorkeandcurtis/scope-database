@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: scope-database
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
