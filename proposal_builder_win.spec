@@ -2,7 +2,8 @@
 import os
 
 block_cipher = None
-script_dir = os.path.dirname(os.path.abspath(SPECPATH))
+# SPECPATH may not resolve correctly on CI; use current working directory
+script_dir = os.getcwd()
 
 a = Analysis(
     [os.path.join(script_dir, 'proposal_builder.py')],
